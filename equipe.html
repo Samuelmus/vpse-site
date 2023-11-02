@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPSE - Nossa Equipe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-equipe.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagem/favis/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagem/LogoVPSE (1).svg" alt="">
+
+        </div>
+
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre o projeto</a></li>
+                <div id="circulo-pagina">
+                    <li><a href="equipe.html">Nossa equipe</a></li>
+                </div>
+                <li><a href="fale_conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="fundo1">
+        <div id="text-equipe">
+            <h2>Nossa equipe</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam similique sint itaque. Laboriosam quam
+                voluptatibus veniam eum id quaerat recusandae ad praesentium ipsam esse quibusdam cum dolores, nisi rem
+                neque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat cupiditate deserunt magnam! Quas
+                tenetur quo sunt sed repellat fuga magnam illo obcaecati iusto, debitis, incidunt officiis accusamus
+                ducimus laudantium eius.</p>
+        </div>
+
+    </section>
+
+    <section class="fundo2-equipe">
+        <div class="fundo2-equipe-part2">
+
+            <div class="container2">
+
+                <div id="container-titulos">
+                   
+                     
+                        <h2 id="titulo-participantes">Participantes</h2>
+                    
+                
+                </div>
+                
+                <div class="container-participantes">
+                    <div class="slider-container">
+                        <button class="slider-button" onclick="changeSlide(1)"></button>
+                        <!-- Grupo 1 de imagens e cargos -->
+                        <div class="slider-item">
+                            <img src="imagem/pessoa1.jpg" alt="Imagem 1" class="imagem">
+                            <h2 id="negrito">Nome</h2>
+                            <h3>Cargo</h3>
+                        </div>
+                        <div class="slider-item hidden">
+                            <img src="imagem/pessoa2.jpg" alt="Imagem 2" class="imagem">
+                            <h2 id="negrito">Nome</h2>
+                            <h3>Cargo</h3>
+                        </div>
+                        <div class="slider-item hidden">
+                            <img src="imagem/pessoa3.jpg" alt="Imagem 3" class="imagem">
+                            <h2 id="negrito">Nome</h2>
+                            <h3>Cargo</h3>
+                        </div>
+                        <!-- Grupo 2 de imagens e cargos (inicialmente oculto) -->
+                        <div class="slider-item hidden">
+                            <img src="imagem/pessoa4.jpg" alt="Imagem 4" class="imagem">
+                            <h2 id="negrito">Nome</h2>
+                            <h3>Cargo</h3>
+                        </div>
+                        <div class="slider-item hidden">
+                            <img src="imagem/pessoa5.jpg" alt="Imagem 5" class="imagem">
+                            <h2 id="negrito">Nome</h2>
+                            <h3>Cargo</h3>
+                        </div>
+                        <div class="slider-item hidden">
+                            <img src="imagem/pessoa6.jpg" alt="Imagem 6" class="imagem">
+                            <h2 id="negrito">Nome</h2>
+                            <h3>Cargo</h3>
+                        </div>
+                        <button class="slider-button" onclick="changeSlide(1)"></button>
+                    </div>
+                   
+                    
+                   
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="fundo3-equipe">
+        
+       
+        <div id="container-imagens">
+          
+            
+            <div class="gallery">
+                <button id="prev" class="botao-carrosel"></button>
+                <img class="image active" src="imagem/cachorro1.jpg" alt="Imagem 1">
+                <img class="image" src="imagem/cachorro2.jpg" alt="Imagem 2">
+                <img class="image" src="imagem/cachorro1.jpg" alt="Imagem 3">
+                <button id="next" class="botao-carrosel"></button>
+            </div>
+               
+        </div>
+
+    </section>
+
+    <script src="cargos.js"></script>
+    <script src="carrosel.js"></script> 
+</body>
+
+</html>

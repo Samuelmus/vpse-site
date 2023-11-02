@@ -1,0 +1,97 @@
+/* Main principal */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#circulo {
+    background: url(imagem/SelectBubble.svg) no-repeat;
+    background-position:15%;
+}
+/* Container_geral */
+.one {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+/* Título */
+#container-text {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+/* Forms */
+form{
+    width: 60%;
+    text-align: center;
+}
+
+/* Ajustando as Seções deixando lado a lado e colocando margem */
+#section_start,
+#section_one,
+#section_end{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#email, #numero{
+    margin-right:10px;
+}
+
+#section_end textarea{
+    height: 300px;
+}
+
+/* Estilizando os inputs */
+#section_start input,
+#section_one input,
+#section_end textarea{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #3e3e3e;
+    border-radius: 10px;
+    background-color: #D2CCCC;
+    border: none;
+}
+
+#section_start input::placeholder,
+#section_one input::placeholder,
+#section_end textarea::placeholder{
+    color: #8f8d8d;
+    font-weight: bold;
+}
+
+/* Tirar as setas do telefone */
+#section_one #numero::-webkit-outer-spin-button,
+#section_one #numero::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Botão Enviar */
+form input[type="submit"]{
+    background-color: #3e3e3e;
+    color: #fafafa;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    height: 60px;
+    width: 180px;
+    font-size: 12pt;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+form input[type="submit"]:hover{
+    color: #22ff00;
+}
+

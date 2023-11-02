@@ -1,0 +1,174 @@
+
+
+.fundo1 {
+    
+    height: 50vh;
+}
+
+
+.fundo2-equipe {
+    background-image: url(imagem/2\ sessão.png);
+    background-size: cover;
+    height: 140vh;
+}
+
+.fundo2-equipe-part2 {
+    background-image: url(imagem/2\ sessão\ 2.png);
+    background-size: cover;
+    height: 140vh;
+ 
+}
+.fundo1 {
+    display: flex;
+    justify-content: center;
+}
+#text-equipe {
+    width: 80%;
+    font-size: 24px;
+    text-align: justify;
+}
+#text-equipe p{
+    color: #212741;
+    margin-top: 30px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+#text-equipe h2{
+    color: #212741;
+}
+
+.container-participantes {
+    margin-top: 50px;
+
+    
+}
+
+
+.participante1 h2 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 100;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+
+#titulo-participantes {
+
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.descricao-participantes {
+    color: #fff;
+}
+                               
+#negrito {
+    font-weight:bold;
+}
+
+
+.container2{
+    padding-top: 200px;
+}
+
+
+.fundo3-equipe {
+    background-color: #fff;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+#circulo-pagina {
+    background: url(imagem/SelectBubble.svg )  no-repeat;
+    background-position: 15%;
+    
+}
+
+
+
+/* Carrosel de imagens de participantes */
+#container-imagens {
+    margin-top: 100px;
+}
+
+
+.imagem{
+    width: 200px;
+    height: 300px;
+}
+
+
+.slider-container {
+    display: flex;
+}
+
+.slider-container h2, h3  {
+    margin-top: 5px;
+    color: #fff;
+}
+
+.slider-item {
+    flex: 1;
+    text-align: center;
+    transition: opacity 0.5s;
+}
+
+.slider-item.hidden {
+    opacity: 0;
+    display: none;
+}
+
+.slider-button {
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid white;    
+    display: block;
+    height:10px;
+    width: 25px;    
+    font-size: 16px;
+    margin-top: 100px;
+}
+
+
+/* Carrosel de imagens */
+
+.container-carrosel {
+    height: 40%;
+    width: 50%;
+    background-color: #D2CCCC;;
+}
+
+.gallery {
+   display: flex;
+   justify-content: center;
+}
+
+.image {
+   display: none;
+}
+
+.image.active {
+   display: block;
+}
+
+.botao-carrosel {
+    background-color: #0c956352;
+    border: 1px solid white;    
+    display: block;
+    margin: 100px;
+    height:10px;
+    width: 50px;    
+    cursor: pointer;
+    font-size: 16px;
+} 
+
+
+
+
+
+
