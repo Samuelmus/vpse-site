@@ -26,12 +26,14 @@
     width: 80%;
     font-size: 24px;
     text-align: justify;
+    margin-top: 40px;
 }
 #text-equipe p{
     color: #212741;
     margin-top: 30px;
     font-size: 24px;
     text-align: justify;
+    font-weight: 400;
 }
 
 #text-equipe h2{
@@ -168,6 +170,10 @@
 } 
 
 
+#rodape {
+    margin-top :250px;
+    height: 100px;
+}
 
 
 

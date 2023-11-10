@@ -72,6 +72,7 @@ header {
     align-items: center;
     position: relative;
     top: 340px;
+    z-index: 1;
 
     
 
@@ -98,9 +99,28 @@ header {
     background: #212741;
     margin-top: 25px;
     border: none;
+  
+
+}
+
+#botao-um:hover{
+    animation: shake 0.5s;
 
 
 }
+
+@keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25%, 75% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+  }
+
 #botao-um a {
     color: #ffff;
     font-size: 32px;
@@ -145,6 +165,12 @@ header {
     background: #ffff;
     margin-top: 25px;
     border: none;
+    
+
+
+}
+#botao-dois:hover{
+    animation: shake 0.5s;
 
 
 }
@@ -184,7 +210,6 @@ button a {
  height: 130vh;
  position: relative;
  top: 0px;
- z-index: -1;
 }
 
 .fundo3 .container {
@@ -213,7 +238,14 @@ button a {
     margin-top: 25px;
     cursor: pointer;
     border: none;
+ 
     
+
+
+}
+
+#botao-tres:hover{
+    animation: shake 0.5s;
 
 
 }
@@ -224,10 +256,36 @@ button a {
     cursor: pointer;
 
 
+
 }
 
 
 #rodape {
-    height: 300px;
+    height: 150px;
     background-color: #094073;
+}
+#rodape p {
+    color: black;
+    
+}
+#copy p { 
+    text-align: center;
+}
+
+#logos-rodapes {
+    display: flex;
+}
+#logo-rodape {
+    height: 30px;
+    margin: 20px;
+
+}
+#card-rodape {
+   
+    display: flex;
+}
+#card-rodape a {
+    color: black;
+    text-align: right;
+    margin-top: 20px;
 }

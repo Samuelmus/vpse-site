@@ -45,7 +45,9 @@ form{
 
 #section_end textarea{
     height: 300px;
+    resize: none;
 }
+
 
 /* Estilizando os inputs */
 #section_start input,
@@ -84,14 +86,17 @@ form input[type="submit"]{
     border-radius: 5px;
     padding: 5px;
     height: 60px;
-    width: 180px;
+    width: 80px;
     font-size: 12pt;
     margin-top: 10px;
     cursor: pointer;
     transition: 0.5s;
+    width: 327px;
+    height: 73px;
+    border-radius: 50px;
 }
 
 form input[type="submit"]:hover{
-    color: #22ff00;
+    color: #e2d0d0;
 }
 

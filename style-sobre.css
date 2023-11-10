@@ -14,11 +14,13 @@
 
 #container-text {
     width: 80%;
+    margin-top: 40px;
 }
 
 #container-text p {
     font-size: 24px;
     text-align: justify;
+    font-weight: 400;
 }
 
 /*Circulos*/
@@ -72,6 +74,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 
 .botoes {
@@ -96,6 +99,12 @@
     display: block;
 }
 
+#prev, 
+#next{
+    position: relative;
+    top: 100;
+}
+
 button {
     border: 1px solid white;    
     display: block;
@@ -106,6 +115,16 @@ button {
     font-size: 16px;
 } 
 
+#rodape {
+    margin-top: 50px;
+    height: 600px;
+    z-index: 3;
+ 
+    
+}
+#rodape-sobre {
 
-
+    position: relative;
+    top: 500px;
+}
 
